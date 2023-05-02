@@ -1,0 +1,35 @@
+{
+	"name": "emolanguage",
+	"displayName": "EmoLanguage",
+	"description": "Why emo language?",
+	"version": "0.0.1",
+	"publisher": "MarsLanding",
+	"engines": {
+		"vscode": "^1.64.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "emo",
+				"aliases": [
+					"Emo",
+					"emo"
+				],
+				"extensions": [
+					".emo"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "emo",
+				"scopeName": "source.emo",
+				"path": "./syntaxes/emo.tmLanguage.json"
+			}
+		]
+	}
+}

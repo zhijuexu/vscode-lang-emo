@@ -1,0 +1,3 @@
+# Emo Language
+
+**Enjoy!**

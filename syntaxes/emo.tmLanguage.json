@@ -1,0 +1,44 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Emo",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "alert.control.emo",
+					"match": "^\\s*\\! .*$"
+				},
+				{
+					"name": "question.control.emo",
+					"match": "^\\s*\\? .*$"
+				},
+				{
+					"name": "title.control.emo",
+					"match": "^\\s*\\# .*$"
+				},
+				{
+					"name": "item.control.emo",
+					"match": "^\\s*\\* .*$"
+				},
+				{
+					"name": "quote.control.emo",
+					"match": "^\\s*\\> .*$"
+				},
+				{
+					"name": "focus.control.emo",
+					"match": "^\\s*\\+ .*$"
+				},
+				{
+					"name": "disabled.control.emo",
+					"match": "^\\s*\\~ .*$"
+				}
+			]
+		}
+	},
+	"scopeName": "source.emo"
+}
